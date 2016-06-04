@@ -61,7 +61,7 @@ main, header, section, article, nav, footer {
 }
 
 #header-block {
-	background: url(../images/gora-900.jpg) bottom no-repeat;
+	background: url(../img/gora-900.jpg) bottom no-repeat;
 	background-size: cover;
 	overflow: auto;
 	margin-bottom: 2em;
