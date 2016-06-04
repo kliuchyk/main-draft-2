@@ -1,0 +1,80 @@
+@import url('header-block.css');
+@import url('main-block.css');
+
+html, body, #wrapper  {
+	height: 100%;
+	margin: 0;
+	max-width: 2600px;
+}
+
+body {
+	line-height: 1.5;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 100%;
+	font-size: 18px;
+}
+
+h1, h2,h3,h4,h5,p {
+	margin: 0;
+}
+
+h2, h3, .site-nav a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.8em;
+	color: #2F9151;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.3em;
+	color: #2F9151;
+}
+
+#wrapper {
+	min-height: 100%;
+	font-size: .8em;
+}
+
+main, header, section, article, nav, footer {
+	display: block;
+}
+
+#header-block, .banner, .about, .i-can, .contact {
+	min-height:470px;
+	height: 100%;
+}
+
+@media screen and (min-width: 900px) {
+	#header-block, .banner, .about, .i-can, .contact {
+		min-height: 650px;
+	}
+
+@media screen and (min-width: 1024px) {
+	#header-block, .banner, .about, .i-can, .contact {
+		min-height: 768px;
+	}
+}
+
+#header-block {
+	background: url(../images/gora-900.jpg) bottom no-repeat;
+	background-size: cover;
+	overflow: auto;
+	margin-bottom: 2em;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
