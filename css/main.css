@@ -1,38 +1,62 @@
 @import url('header-block.css');
 @import url('main-block.css');
+@import url('animation.css');
 
-html, body, #wrapper  {
-	height: 100%;
-	margin: 0;
-	max-width: 2600px;
+
+html {
+	background-color: rgba(143, 169, 163, 0.16);
 }
 
+html, body, #wrapper  {
+	font-family: 'PT Sans', Tahoma, Arial;
+	height: 100%;
+	margin: 0;
+	max-width: 1600px;
+}
+main, .i-can {
+	background-color: #E0EBE8;
+}
 body {
 	line-height: 1.5;
-	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 100%;
 	font-size: 18px;
+}
+
+#main-block {
+	min-height: 100%;
+}
+
+.about, .i-can, .contact {
+	padding: 1em;
+	box-sizing: border-box;
 }
 
 h1, h2,h3,h4,h5,p {
 	margin: 0;
 }
 
-h2, h3, .site-nav a {
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-weight: 700;
-}
-
 h2 {
+	font-family: 'Lora', serif;
+	font-weight: 700;
 	text-align: center;
 	font-size: 1.8em;
-	color: #2F9151;
+	color: rgba(66, 90, 69, 0.79);
 }
 
 h3 {
+	font-family: 'Lora', serif;
 	text-align: center;
 	font-size: 1.3em;
-	color: #2F9151;
+	color: #87C099;
+}
+
+#main-block p {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: rgba(72, 70, 70, 0.98);
+	padding-top: .5em;
+	text-align: center;
 }
 
 #wrapper {
@@ -49,11 +73,6 @@ main, header, section, article, nav, footer {
 	height: 100%;
 }
 
-@media screen and (min-width: 900px) {
-	#header-block, .banner, .about, .i-can, .contact {
-		min-height: 650px;
-	}
-
 @media screen and (min-width: 1024px) {
 	#header-block, .banner, .about, .i-can, .contact {
 		min-height: 768px;
@@ -61,10 +80,9 @@ main, header, section, article, nav, footer {
 }
 
 #header-block {
-	background: url(../img/gora-900.jpg) bottom no-repeat;
+	background: url(../img/gora.jpg) center bottom no-repeat;
 	background-size: cover;
 	overflow: auto;
-	margin-bottom: 2em;
 }
 
 .group:before,
