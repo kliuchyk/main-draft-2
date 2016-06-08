@@ -1,4 +1,4 @@
-// typed.js
+// typed.js onload
 
  $(function(){
       $(".element").typed({
@@ -10,22 +10,21 @@
   });
 
 
+// typed.js onclick
 
   $("#logo").click(function(){
     $(".typed-text").show();
 
-   $(".element-box").typed({
+    $(".element-box").typed({
         startDelay: 1000,
         strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
         typeSpeed: 50,
         backDelay: 1200,
       });
-      $("#logo").click(function(){
-        $(".typed-text").hide();
-      });
+    $("#logo").click(function(){
+      $(".typed-text").hide();
+    });
   });
-
-
 
     
 

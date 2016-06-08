@@ -23,7 +23,7 @@
 .banner {
 		-webkit-animation: spotlightBG 10s infinite alternate;
 		-moz-animation: spotlightBG 10s infinite alternate;
-		animation: spotlightBG 10s infinite alternate;
+		animation: spotlightBG 7s infinite alternate;
 	}
 	
 	@-webkit-keyframes spotlightBG {
