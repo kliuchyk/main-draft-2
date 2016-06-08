@@ -1,0 +1,49 @@
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.banner {
+		-webkit-animation: spotlightBG 10s infinite alternate;
+		-moz-animation: spotlightBG 10s infinite alternate;
+		animation: spotlightBG 10s infinite alternate;
+	}
+	
+	@-webkit-keyframes spotlightBG {
+		0% { background-color: rgba(153, 45, 56, 0.57); }
+		25% { background-color: rgba(153, 45, 141, 0.6); }
+		50% { background-color: rgba(44, 146, 141, 0.53); }
+		75% { background-color: rgba(45, 59, 153, 0.53); }
+		100% { background-color: rgba(153, 149, 45, 0.53); }
+	}
+		@-moz-keyframes spotlightBG {
+		0% { background-color: rgba(153, 45, 56, 0.57); }
+		25% { background-color: rgba(153, 45, 141, 0.6); }
+		50% { background-color: rgba(44, 146, 141, 0.53); }
+		75% { background-color: rgba(45, 59, 153, 0.53); }
+		100% { background-color: rgba(153, 149, 45, 0.53); }
+	}
+		@keyframes spotlightBG {
+		0% { background-color: rgba(144, 18, 166, 0.58); }
+		25% { background-color: rgba(21, 80, 167, 0.5); }
+		50% { background-color: rgba(21, 167, 38, 0.5); }
+		75% { background-color: rgba(173, 144, 11, 0.59); }
+		100% { background-color: rgba(171, 58, 23, 0.66); }
+	}

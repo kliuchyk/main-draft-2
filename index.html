@@ -9,7 +9,7 @@
 	<link rel="icon" type="image/png" href="img/key.png">
 	<link rel="stylesheet" href="css/animation.css" type="text/css" />
 	<link rel="stylesheet" href="css/header-block.css" type="text/css" />
-	<link rel="stylesheet" href="css/main-block.css" type="text/css" />
+	<link rel="stylesheet" href="css/main-content.css" type="text/css" />
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
@@ -17,7 +17,9 @@
 		<header id="header-block">
 			<div class="banner">
 				<div class="logo-nav">
-					<div class="logo"><a href="#">EK</a></div>
+					<div class="logo">
+						<a href="#" id="logo">EK</a>
+					</div>
 					<nav class="site-nav">
 						<ul class="group">
 							<li><a href="#about">about</a></li>
@@ -26,8 +28,14 @@
 						</ul>
 					</nav>
 				</div><!-- logo-nav -->
-				<div class="banner-heading"><h1>Hello, <br>I'm Evgeny!</h1></div><!-- banner-heading -->
-				<div class="banner-text"><p>a web developer.</p></div><!-- banner-text -->
+                
+				<div class="banner-heading"><span class="element"></span></div>     <!--good-working animation-->
+				
+				<!--<div class="banner-heading"><h1>Hello, <br>I'm Evgeny!</h1></div>   <!-- banner-heading--> 
+				<!--<div class="banner-text"><p>a web developer.</p></div>     <!-- banner-text -->
+				
+				<div class="typed-text"><span class="element-box"></span></div>   <!--typed-text in the box-->
+				
 			</div><!-- banner -->
 		</header>
 		<main id="main-block">
@@ -85,13 +93,14 @@
 		<footer id="bottom-block">
 				<p>&copy; 2016 Evgeny Kliuchyk</p>
 				<div class="social-links">
-					<a href="https://www.facebook.com/eugene.kliuchyk" class="f"><!-- Facebook --></a>
-					<a href="https://www.linkedin.com/in/evgeny-kliuchyk-1a9315102?trk=nav_responsive_tab_profile" class="in"><!-- LinkedIn --></a>
-					<a href="https://github.com/kliuchyk/main-draft-2" class="git"><!-- GitHub --></a>
+					<a href="https://www.facebook.com/eugene.kliuchyk" class="f"><!--Facebook--></a>
+					<a href="https://www.linkedin.com/in/evgeny-kliuchyk-1a9315102?trk=nav_responsive_tab_profile" class="in"><!--Linkedin--></a>
+					<a href="https://github.com/kliuchyk/main-draft-2" class="git"><!--GitHub--></a>
 				</div>
 		</footer>
 	</div> <!-- wrapper -->
 	<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/typed.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

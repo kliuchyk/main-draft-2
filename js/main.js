@@ -1,3 +1,45 @@
+// typed.js
+
+ $(function(){
+      $(".element").typed({
+        showCursor: false,
+        startDelay: 1200,
+        strings: ["<span class='banner-heading'>Hello, <br> I'm Evgeny!</span> <br>a web developer."],
+        typeSpeed: 50,
+      });
+  });
+
+
+
+  $("#logo").click(function(){
+    $(".typed-text").show();
+
+   $(".element-box").typed({
+        startDelay: 1000,
+        strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
+        typeSpeed: 50,
+        backDelay: 1200,
+      });
+      $("#logo").click(function(){
+        $(".typed-text").hide();
+      });
+  });
+
+
+
+    
+
+  // $(function(){
+  //     $(".element-box").typed({
+  //       startDelay: 1000,
+  //       strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
+  //       typeSpeed: 50,
+  //       backDelay: 1200,
+  //     });
+  // }); 
+
+
+// smooth scrolling
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -6,14 +48,14 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 1200);
         return false;
       }
     }
   });
 });
 
-
+// form's request
 $('#btn-send').click(function(e) {
   $.ajax({
       url: "https://formspree.io/kliuchyk@gmail.com",  
