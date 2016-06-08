@@ -1,4 +1,9 @@
 
+#about, #i-can, #contact {
+	padding: 1em;
+	box-sizing: border-box;
+}
+
 /*==============About Section================*/
 .my-photo {
     width: 160px;
@@ -17,14 +22,12 @@
 }
 
 /*==============I Can Section================*/
-.i-can {
+#i-can {
     padding: 0 1em;
-    box-sizing: border-box;
-    background-color: #fff;
 }
 
-.i-can:before,
-.i-can:after {
+#i-can:before,
+#i-can:after {
 	display: block;
 	margin: 3em auto;
 	content: "";
@@ -32,7 +35,7 @@
 	border-bottom: 3px solid hsla(0,0%,50%, .5);
 }
 
-.i-can img {
+#i-can img {
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
@@ -49,8 +52,10 @@
 	padding: 1em .3em;
 }
 
-/*==============I Can Section================*/
+/*============== the End of 'I Can' Section================*/
 
+
+/*=============Contact Section ==============*/
 .contact-description {
     padding: 1em 0 0;
     width: 90%;
@@ -67,6 +72,7 @@ form {
 	background-color: rgba(130, 156, 153, 0.11);
 	margin: 2em auto;
 	padding: 1em;
+	border-radius: 10px;
 }
 
 .hidden-label {
@@ -126,7 +132,7 @@ input[type="text"]:focus {
 
 
 @media screen and (min-width: 500px) {
-	.about {
+	#about {
 		font-size: 115%;
 	}
 
@@ -134,7 +140,7 @@ input[type="text"]:focus {
 		width: 240px;
 	}
 
-	.i-can {
+	#i-can {
 		font-size: 115%;
 	}
 
@@ -160,7 +166,7 @@ input[type="text"]:focus {
 }
 
 @media screen and (min-width: 800px) {
-	.about {
+	#about {
 		padding-top: 2em;
 	}
 
@@ -169,15 +175,14 @@ input[type="text"]:focus {
 		margin-right: 40px;
 		padding: 0;
 		float: left;
+		display: block;
 		box-sizing: border-box;
-		display: inline-block;
 	}
 
 	.hello-about {
 		width: 50%;
 		margin: 0 auto;
 		padding: 0 2em;
-		float-left;
 		box-sizing: border-box;
 		display: inline-block;
 	}
@@ -215,7 +220,7 @@ input[type="text"]:focus {
 		margin: 0 auto;
 	}
 
-	.about {
+	#about {
 		padding: 5em .5em;
 	}
 
@@ -235,7 +240,7 @@ input[type="text"]:focus {
 		margin: 0 auto;
 	}
 
-	.about {
+	#about {
 		padding: 2.5em .5em;
 	}
 
@@ -303,7 +308,6 @@ input[type="text"]:focus {
 	background-repeat: no-repeat;
 	text-align: center;
 	border: 0;
-
 	text-decoration: none;
 	padding: 1em;
 	color: #767171;

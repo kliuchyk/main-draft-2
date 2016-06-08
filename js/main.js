@@ -14,9 +14,6 @@ $(function() {
 });
 
 
-
-
-
 $('#btn-send').click(function(e) {
   $.ajax({
       url: "https://formspree.io/kliuchyk@gmail.com",  

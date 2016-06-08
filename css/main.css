@@ -1,34 +1,23 @@
-@import url('header-block.css');
-@import url('main-block.css');
-@import url('animation.css');
-
-
 html {
 	background-color: rgba(143, 169, 163, 0.16);
 }
 
 html, body, #wrapper  {
-	font-family: 'PT Sans', Tahoma, Arial;
 	height: 100%;
 	margin: 0;
-	max-width: 1600px;
 }
-main, .i-can {
-	background-color: #E0EBE8;
-}
+
 body {
+	min-width: 320px;
+	max-width: 1900px;
 	line-height: 1.5;
 	font-size: 100%;
 	font-size: 18px;
+	font-family: 'PT Sans', Tahoma, Arial;
 }
 
-#main-block {
-	min-height: 100%;
-}
-
-.about, .i-can, .contact {
-	padding: 1em;
-	box-sizing: border-box;
+main, header, section, article, nav, footer {
+	display: block;
 }
 
 h1, h2,h3,h4,h5,p {
@@ -50,6 +39,10 @@ h3 {
 	color: #87C099;
 }
 
+main, #i-can  {
+	background-color: #E0EBE8;
+}
+
 #main-block p {
 	font-family: 'Lora', serif;
 	font-weight: 400;
@@ -64,17 +57,13 @@ h3 {
 	font-size: .8em;
 }
 
-main, header, section, article, nav, footer {
-	display: block;
-}
-
-#header-block, .banner, .about, .i-can, .contact {
+#header-block, .banner, #about, #i-can, #contact {
 	min-height:470px;
 	height: 100%;
 }
 
 @media screen and (min-width: 1024px) {
-	#header-block, .banner, .about, .i-can, .contact {
+	#header-block, .banner, #about, #i-can, #contact {
 		min-height: 768px;
 	}
 }
