@@ -1,5 +1,4 @@
 // typed.js onload
-
  $(function(){
       $(".element").typed({
         showCursor: false,
@@ -10,8 +9,7 @@
   });
 
 
-// typed.js onclick
-
+// typed.js onclick 'typed-box'
   $("#logo").click(function(){
     $(".typed-text").show();
 
@@ -26,19 +24,29 @@
     });
   });
 
-    
 
-  // $(function(){
-  //     $(".element-box").typed({
-  //       startDelay: 1000,
-  //       strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
-  //       typeSpeed: 50,
-  //       backDelay: 1200,
-  //     });
-  // }); 
+// start animation through the scrolling
+$(window).scroll(function() {
+    $('.left-move').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+600) {
+        $(this).addClass('fadeInLeft');
+      }
+    });
+  }); 
+  
+  $(window).scroll(function() {
+    $('.right-move').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+700) {
+        $(this).addClass('fadeInRight');
+      }
+    });
+  }); 
 
-
-// smooth scrolling
+// smooth scrolling through the link-clicking
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
