@@ -16,7 +16,7 @@
     $(".element-box").typed({
         startDelay: 1000,
         strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
-        typeSpeed: 50,
+        typeSpeed: 0,
         backDelay: 1200,
       });
     $("#logo").click(function(){
@@ -62,7 +62,7 @@ $(function() {
   });
 });
 
-// smooth scrollingto the top
+// smooth scrolling to the top
 $(document).ready(function() {
     var offset = 220;
     var duration = 500;
