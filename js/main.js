@@ -15,7 +15,7 @@
 
     $(".element-box").typed({
         startDelay: 1000,
-        strings: ["WELCOM !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
+        strings: ["WELCOME !^500<br>My dear guest, this is my first webpage!^500<br>I hope you enjoy it!"],
         typeSpeed: 0,
         backDelay: 1200,
       });
