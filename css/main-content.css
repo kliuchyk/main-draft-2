@@ -129,6 +129,28 @@ input[type="text"]:focus {
 }
 /*============= The End Form Style ==============*/
 
+/*============== Go-Up Button=================*/
+.back-to-top {
+    position: fixed;
+    bottom: 60%;
+    right: 0px;
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+    color: #f8fcfb;
+    border-radius: 10px;
+    background-color: rgba(68, 158, 102, 0.25);
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+    text-align: center;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+
+
 /*============== Footer ================*/
 #bottom-block {
 	width: 100%;
@@ -218,6 +240,10 @@ input[type="text"]:focus {
 		height: 40px;
 	}
 	
+	.back-to-top {
+		right: 10px;
+	}
+	
 }
 
 @media screen and (min-width: 800px) {
@@ -266,7 +292,13 @@ input[type="text"]:focus {
 
  	.design-text {
 	    padding: .5em 2em;
- 	}	
+ 	}
+ 	
+ 	.back-to-top {
+		right: 20px;
+		font-size: 100%;
+		padding: 7px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -327,7 +359,7 @@ input[type="text"]:focus {
 	}
 	
 	#bottom-block {
-	    margin-top: -120px;
+	    margin-top: -30px;
 	}
 	
 	#btn-send {
@@ -398,21 +430,4 @@ input[type="text"]:focus {
 /*============== The end of 1024 media=================*/
 
 
-/*============== back to top Button=================*/
-.back-to-top {
-    position: fixed;
-    bottom: 140px;
-    right: 30px;
-    text-decoration: none;
-    color: #edf1f0;
-    border-radius: 10px;
-    background-color: rgb(125, 170, 142);
-    font-size: 12px;
-    padding: 1em;
-    display: none;
-}
-
-.back-to-top:hover {    
-    background-color: rgba(135, 135, 135, 0.50);
-}
 

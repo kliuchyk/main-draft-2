@@ -4,7 +4,7 @@
         showCursor: false,
         startDelay: 1200,
         strings: ["<span class='banner-heading'>Hello, <br> I'm Evgeny!</span> <br>a web developer."],
-        typeSpeed: 50,
+        typeSpeed: 20,
       });
   });
 
