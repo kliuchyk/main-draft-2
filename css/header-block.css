@@ -18,9 +18,9 @@
 
 .banner-text {
     font-size: 2em;
-    text-align: center;
     font-weight: 700;
     font-family: 'Lora', serif;
+    text-align: center;
     text-shadow: 1px 1px 1px #365579;
 }
 
@@ -28,7 +28,6 @@
 	width: 350px;
 	height: 100px;
 	padding: 10px 20px;
-	/*margin-left: -175px;*/
 	background-color: #1a1a1a;
 	font-size: 115%;
 	color: #0bff27;
@@ -59,7 +58,6 @@
 
 .logo a {
 	display: block;
-	vertical-align: middle;
 	margin: 0 auto;
 	text-align: center;
 	text-decoration: none;
@@ -71,8 +69,6 @@
 	font-weight: 700;
 	font-size: 1.5em;
 }
-/*==========Finish Logo style==========*/
-
 
 /*==========Navigation style==========*/
 .site-nav {
@@ -112,20 +108,21 @@
 	border: 2px solid #E1DEDE;
 }
 
-/*==========Finish Site-Nav style==========*/
-
-/*========== Media screen ==========*/
+/*========== Media queries ==========*/
 @media screen and (min-width: 400px) {
 	.logo-nav {
 		width: 80%;
     	margin: 0 auto;
 	}
+	
 	.site-nav li {
 		margin-right: 1em;
 	}
+	
 	.banner-heading {
 		padding: 4em .5em .5em;
 	}
+	
 	.banner-heading,
 	.banner-text {
 		width: 80%;
@@ -139,25 +136,29 @@
 	.banner-heading {
 		padding: 4em .5em .5em;
 	}
+	
 	.banner-heading,
 	.banner-text {
 		width: 80%;
 		margin: 0 auto;
     	font-size: 2.2em;
 	}
+	
 	.logo-nav {
 		width: 85%;
     	margin: 0 auto;
     	padding: 1.5em 0 0;
 	}
+	
 	.logo {
 		transform: scale(1.2);
 	}
+	
 	.site-nav li {
 		margin-right: 1.5em;
 	}
+	
 	.site-nav a {
-		font-family: 'Oswald', sans-serif;
 		padding: .1em .8em;
 	    font-size: 1.1em;
 	}
@@ -167,12 +168,15 @@
 	.logo-nav {
 		width: 80%;
 	}
+	
 	.site-nav {
 		padding-top: 15px;
 	}
+	
 	.site-nav li {
 		margin-right: 2em;
 	}
+	
 	.site-nav a {
 		padding: .2em 1.3em;
 	    font-size: 1.2em;
@@ -180,16 +184,18 @@
 }
 
 @media screen and (min-width: 900px) {
-
 	.logo-nav {
 		width: 80%;
 	}
+	
 	.site-nav {
 		padding-top: 15px;
 	}
+	
 	.site-nav li {
 		margin-right: 2em;
 	}
+	
 	.site-nav a {
 		padding: .2em 1.3em;
 	    font-size: 1.2em;

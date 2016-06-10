@@ -4,6 +4,7 @@
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -21,8 +22,8 @@
 }
 
 .banner {
-	-webkit-animation: spotlightBG 10s infinite alternate;
-	-moz-animation: spotlightBG 10s infinite alternate;
+	-webkit-animation: spotlightBG 7s infinite alternate;
+	-moz-animation: spotlightBG 7s infinite alternate;
 	animation: spotlightBG 7s infinite alternate;
 	}
 	

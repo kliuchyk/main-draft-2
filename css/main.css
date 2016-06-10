@@ -39,7 +39,12 @@ h3 {
 	color: #87C099;
 }
 
-main, #i-can  {
+#wrapper {
+	min-height: 100%;
+	font-size: .8em;
+}
+
+#main-block, #i-can  {
 	background-color: #E0EBE8;
 }
 
@@ -50,11 +55,6 @@ main, #i-can  {
 	color: rgba(72, 70, 70, 0.98);
 	padding-top: .5em;
 	text-align: center;
-}
-
-#wrapper {
-	min-height: 100%;
-	font-size: .8em;
 }
 
 #header-block, .banner, #about, #i-can, #contact {

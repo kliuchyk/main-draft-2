@@ -52,9 +52,6 @@
 	padding: 1em .3em;
 }
 
-/*============== the End of 'I Can' Section================*/
-
-
 /*=============Contact Section ==============*/
 .contact-description {
     padding: 1em 0 0;
@@ -127,7 +124,6 @@ input[type="text"]:focus {
 	color: #fff;
 	cursor: pointer;
 }
-/*============= The End Form Style ==============*/
 
 /*============== Go-Up Button=================*/
 .back-to-top {
@@ -183,20 +179,18 @@ input[type="text"]:focus {
 	padding: 1em;
 }
 
-.f {
+.facebook-link {
 	background: url(../img/facebook.png) center no-repeat;
 	/*background-size: cover;*/
 }
 
-.in {
+.linkedin-link {
 	background: url(../img/linkedin.png) center no-repeat;
 }
 
-.git {
+.github-link {
 	background: url(../img/github.png) center no-repeat;
 }
-
-
 
 /*============== Media ================*/
 @media screen and (min-width: 500px) {
@@ -243,7 +237,6 @@ input[type="text"]:focus {
 	.back-to-top {
 		right: 10px;
 	}
-	
 }
 
 @media screen and (min-width: 800px) {
@@ -427,7 +420,6 @@ input[type="text"]:focus {
 		padding-bottom: 1em;
 	}
 }
-/*============== The end of 1024 media=================*/
 
 
 

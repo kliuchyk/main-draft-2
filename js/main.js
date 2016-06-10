@@ -8,7 +8,6 @@
       });
   });
 
-
 // typed.js onclick 'typed-box'
   $("#logo").click(function(){
     $(".typed-text").show();
@@ -23,7 +22,6 @@
       $(".typed-text").hide();
     });
   });
-
 
 // start animation through the scrolling
 $(window).scroll(function() {
